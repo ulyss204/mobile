@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="&#x421;&#x43B;&#x43E;&#x439;_1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="80px" height="80px"
+	 viewBox="0 0 80 80" style="enable-background:new 0 0 80 80;" xml:space="preserve">
+<symbol  id="Edit" viewBox="-40 -40 80 80">
+	<path style="fill:#F0F4F6;" d="M30-40h-60c-5.523,0-10,4.477-10,10v60c0,5.523,4.477,10,10,10h60c5.523,0,10-4.477,10-10v-60
+		C40-35.523,35.523-40,30-40z"/>
+	<g>
+		<polygon style="fill:#8596A4;" points="16,-14 -16,-14 -16,-12 16,-12 		"/>
+		<path style="fill:#8596A4;" d="M8,11.171L11.172,8L-1.124-4.295L-6.41-6.41l2.114,5.286L8,11.171 M8,14L-6,0l-4-10L0-6L14,8L8,14
+			L8,14z"/>
+		<g>
+			<path style="fill:#8596A4;" d="M-10-10L0-6c0,0-0.292,2.292-2,4s-4,2-4,2L-10-10z"/>
+		</g>
+	</g>
+</symbol>
+<use xlink:href="#Edit"  width="80" height="80" id="XMLID_133_" x="-40" y="-40" transform="matrix(1 0 0 -1 40 40)" style="overflow:visible;"/>
+</svg>

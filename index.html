@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+	
+	<header>
+		<div class="iphone"></div>
+		<div class="head">
+			<div class="wrapper">
+				<div class="head_arrow"><a href="#" class="display"></a></div>
+				<div class="head_logo"><a href="#" class="display"></a></div>
+				<div class="head_container">
+					<div class="container_search"></div>
+					<div class="container_menu"></div>
+
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="wrapper">
+			<section class="settings">
+			<h1>Мои настройки </h1>
+			<div class="settings_photo"></div>
+			<a href="#">Добавить фото</a>
+			<hr>
+			<h3>Настройки профиля</h3>
+			<p>Email</p>
+			<p class="font_size weight">zakhar.timersanov345@xxmail.com</p>
+			<button class="btn" id="btn">Сменить пароль</button>
+			<div class="settings_password">
+				<div class="wrapper">
+					<h3>Смена пароля</h3>
+					<form>
+						<div class="settings_container">
+							<label for="present_password">Текущий пароль</label>
+				          	<input type="password" id="present_password" class="password_txt">
+				          	<div class="password_eye"></div>
+				        </div>
+				        <div class="settings_container">
+				          	<label for="new_password">Новый пароль</label>
+				          	<input type="password" id="new_password" class="password_txt">
+				          	<div class="password_eye"></div>
+				        </div>
+			          	<div class="settings_container">
+					      	<label for="confirm_password">Подтверждение нового пароля</label>
+					      	<input type="password" id="confirm_password" class="password_txt">
+					      	<div class="password_eye" id="third"></div>
+					    </div>
+					</form>
+		          	<hr>
+		          	<h3 class="center">Привязка аккаунтов</h3>
+		          	<ul>
+		          		<li class="social"><a href="#" class="display"></a></li>
+		          		<li class="social"><a href="#" class="display"></a></li>
+		          		<li class="social"><a href="#" class="display"></a></li>
+		          	</ul>
+		          	<hr>
+		          	<button class="btn btn_1 " id="btn_1" >Сохранить изменения</button>
+		          	<p class="center color " id="btn_2">Отменить изменения</p>
+		          </div>
+			</div>
+			<hr>
+		</section>
+		<section class="info">
+			<h3>Контактная информация</h3>
+			<p>Имя пользователя</p>
+			<input type="text" id="info_name">
+			
+			<div id="ok"></div>
+			<p class="weight" id="name"></p>
+			<p>Телефон</p>
+			<div class="info_item">
+				<p class="font_size weight">+78 901 234 56 78</p>
+				<div class="change" id="change_marg"></div>
+			</div>
+			<hr>
+			<h3>Настройки email-рассылки</h3>
+			<p>Город</p>
+			<div class="info_item">
+				<p class="weight">Алматы</p>
+				<div class="change"></div>
+			</div>
+			<p>Тип недвижимости</p>
+			<div class="info_item">
+				<p class="weight">Все</p>
+				<div class="change"></div>
+			</div>
+			<div class="dot">bord</div>
+			<div class="info_contain">
+				<p class="weight size">Перезаписывать настройки рассылки</p>
+				<div class="switch">
+					<span class="handle"></span>
+				</div>
+			</div>
+			<div class="dot">bord</div>
+			<div class="info_contain">
+				<p class="weight size">Подписаться на персональную рассылку</p>
+				<div class="switch">
+					<span class="handle"></span>
+				</div>
+			</div>
+		</section>
+	</div>
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/javascript.js"></script>
+</body>
+</html>
