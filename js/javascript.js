@@ -49,12 +49,15 @@ function conditionMoveSnap() {
 }
 $('#btn').click(function(){
 	$('.settings_password').show();
+	$(this).hide();
 });
 $('#btn_1').click(function(){
 	$('.settings_password').hide();
+	$('#btn').show();
 });
 $('#btn_2').click(function(){
 	$('.settings_password').hide();
+	$('#btn').show();
 });
 $('.password_eye').click(function(){
 	
